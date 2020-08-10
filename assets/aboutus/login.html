@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <link type="text/css" rel="stylesheet" href="login.css" />
+		<title></title>
+		<link rel="stylesheet" href="header.css" />
+		<link rel="stylesheet" href="header-app.css" />
+		<link rel="stylesheet" href="fonts/flaticon/flaticon.css" />
+		<link rel="stylesheet" href="fonts/font-awesome/css/all.min.css">
+	</head>
+	<body>
+		<header class="header">
+			<div class="header-nav">
+				<a class="nav-img" href="javascript:void()">
+					<img src="./img/logo.png" />
+				</a>
+				<ul class="nav-text">
+					<li>
+						<a href="#">Home Pages</a>
+						<ul class="nav-concell">
+							<li><a href="#">Home v1</a></li>
+							<li><a href="#">Home v2</a></li>
+							<li><a href="#">Home v3</a></li>
+							<li><a href="#">Home v4</a></li>
+							<li><a href="#">Home v5</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">Blog</a>
+						<ul class="nav-concell special-nav">
+							<li>
+								<a href="#">Blog Archive</a>
+								<ul class="special-nav-concell">
+									<li><a href="#">Grid View</a></li>
+									<li><a href="#">List View</a></li>
+									<li><a href="#">Masonry</a></li>
+		
+								</ul>
+							</li>
+							<li>
+								<a href="#">Blog Single</a>
+								<ul class="special-nav-concell">
+									<li><a href="#">Blog Single v1</a></li>
+									<li><a href="#">Blog Single v2</a></li>
+									<li><a href="#">Blog Single v3</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">Pages</a>
+						<ul class="nav-concell">
+							<li><a href="#">About Us</a></li>
+							<li><a href="#">Login</a></li>
+							<li><a href="#">Sign Up</a></li>
+							<li><a href="#">Checkout</a></li>
+							<li><a href="#">Cart</a></li>
+							<li><a href="#">Product Details</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">Recipes</a>
+						<ul class="nav-concell">
+							<li><a href="#">Recipe Archive</a></li>
+							<li><a href="#">Recipe Details</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">Shop</a>
+					</li>
+					<li>
+						<a href="#">Contact Us</a>
+					</li>
+				</ul>
+				<div class="nav-icon">
+					<ul>
+						<li><i class="flaticon-shopping-basket"></i></li>
+						<li><i class="flaticon-magnifying-glass"></i></li>
+					</ul>
+					<div id="app-nav" onclick="openappnav()"> ≡</div>
+				</div>  
+		</header>
+		<aside class="app-nav-aside">
+			<a><img src="img/logo.png"/></a>
+			<ul>
+				<li>
+					<a>Home Pages</a>
+				<ul class="drop-down-list">
+					<li><a href="#">Home v1</a></li>
+					<li><a href="#">Home v2</a></li>
+					<li><a href="#">Home v3</a></li>
+					<li><a href="#">Home v4</a></li>
+					<li><a href="#">Home v5</a></li>
+				</ul>
+				</li>
+				<li>
+					<a>Blog</a>
+					<ul class="drop-down-list special-list">
+						<li>
+							<a href="#">Blog Archive</a>
+							<ul class="drop-down-list Blog-list">
+								<li><a href="#">Grid View</a></li>
+								<li><a href="#">List View</a></li>
+								<li><a href="#">Masonry</a></li>
+					
+							</ul>
+						</li>
+						<li>
+							<a href="#">Blog Single</a>
+							<ul class="drop-down-list Blog-list">
+								<li><a href="#">Blog Single v1</a></li>
+								<li><a href="#">Blog Single v2</a></li>
+								<li><a href="#">Blog Single v3</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li><a>Pages</a></li>
+				<li><a>Recipes</a></li>
+				<li><a>Shop</a></li>
+				<li><a>Contact Us</a></li>
+			</ul>
+		</aside>
+		<div class="aside-overlay" onclick="closeappnav()"></div>
+		<div class="bodys"  >
+			<img src="img/4.jpg">
+			<div class="content">
+				<div class="content1" style="background: url(img/5.jpg);">
+					<h1>Login</h1>	
+					<div class="form-group">
+						<label>Username</label>
+						<input type="text" class="form-control" placeholder="Username" name="username" value="">
+					</div>
+					<div class="form-group">
+						<label>Password</label>
+						<input type="password" class="form-control" placeholder="Password" name="password" value="">
+					</div>
+					<div class="forget">
+						<div class="forget-left">
+							<input type="checkbox" class="forget-left1" id="rememberMe">
+							<label class="forget-left2" for="rememberMe">Remember Me</label>
+						</div>
+						<div class="forget-right">
+							<span>Forger?Password?</span>
+						</div> 
+					</div>
+					<div class="login">
+						<button type="submit" class="login-btn">Login</button>
+					</div>
+					<p class="login-bottom">
+						Don't have an account? 
+						<a href="javasrcipt:;" class="btn-link">Create One</a>
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="foot">
+		     <div class="foot1">
+				 <div class="foot1-top">
+					 <ul>
+						 <li>
+							<a href="javascript:;">
+								<i class="foot1-top1">f</i>
+							</a> 
+						 </li>
+						 <li>
+						 	<a href="javascript:;">
+						 		<i class="foot1-top1">#</i>
+						 	</a> 						 
+						 </li>
+						 <li>
+						 	<a href="javascript:;">
+						 		<i class="foot1-top1">#</i>
+						 	</a> 						 
+						 </li>
+						 <li>
+						 	<a href="javascript:;">
+						 		<i class="foot1-top1">in</i>
+						 	</a> 						 
+						 </li>
+					 </ul>
+				 </div>
+				 <div class="foot1-body">
+						<ul>
+							<li>
+								<a href="javascript:;">Breakfast</a>
+							</li>
+							<span>o</span>
+							<li>
+								<a href="javascript:;">Desserts</a>
+							</li>
+							<span>o</span>
+							<li>
+								<a href="javascript:;">Dinner</a>
+							</li>
+							<span>o</span>
+							<li>
+								<a href="javascript:;">Dairy</a>
+							</li>
+						</ul>
+				 </div>
+				 <div class="foot1-foot">
+					 <div class="foot1-foot1">
+					 <p>
+						"© Copyright 2020 -"
+						 <a href="javascript:;">Androthemes</a>
+						  “All Rights Reserved.”
+					 </p>
+					 </div>
+				 </div>
+			 </div>
+		</div>
+	</body>
+</html>

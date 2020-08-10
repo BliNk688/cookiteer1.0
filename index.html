@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./assets/headandfoot/font.css">
+
+    <link rel="stylesheet" type="text/css" href="./assets/headandfoot/footer.css">
+    <link rel="stylesheet" href="./assets/headandfoot/fonts/flaticon/flaticon.css" />
+    <link rel="stylesheet" href="./assets/headandfoot/fonts/font-awesome/css/all.min.css">
+
+    <link rel="stylesheet" href="assets/css/iconfont.css">
+    <link rel="stylesheet" href="assets/vids/font_37uhxj5b5fn/iconfont.css">
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./assets/headandfoot/header.css" />
+    <link rel="stylesheet" href="./assets/headandfoot/header-app.css" />
+    <link rel="stylesheet" href="./assets/headandfoot/fonts/flaticon/flaticon.css" />
+    <link rel="stylesheet" href="./assets/headandfoot/fonts/font-awesome/css/all.min.css">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页</title>
+    <style>
+        .header {
+            z-index: 999;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-nav">
+            <a class="nav-img" href="javascript:void()">
+                <img src="./assets/headandfoot/img/logo.png" />
+            </a>
+            <ul class="nav-text">
+                <li>
+                    <a href="">Home Pages</a>
+                    <ul class="nav-concell">
+                        <li><a href="#">Home v1</a></li>
+                        <li><a href="#">Home v2</a></li>
+                        <li><a href="#">Home v3</a></li>
+                        <li><a href="#">Home v4</a></li>
+                        <li><a href="#">Home v5</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="./assets/bolg-grid/index.html">Blog</a>
+                    <ul class="nav-concell special-nav">
+                        <li>
+                            <a href="./assets/bolg-grid/index.html">Blog Archive</a>
+                            <ul class="special-nav-concell">
+                                <li><a href="#">Grid View</a></li>
+                                <li><a href="#">List View</a></li>
+                                <li><a href="#">Masonry</a></li>
+
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Blog Single</a>
+                            <ul class="special-nav-concell">
+                                <li><a href="#">Blog Single v1</a></li>
+                                <li><a href="#">Blog Single v2</a></li>
+                                <li><a href="#">Blog Single v3</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Pages</a>
+                    <ul class="nav-concell">
+                        <li><a href="./assets/aboutus/about-us.html">About Us</a></li>
+                        <li><a href="./assets/aboutus/login.html">Login</a></li>
+                        <li><a href="./assets/aboutus/register.html">Sign Up</a></li>
+                        <li><a href="#">Checkout</a></li>
+                        <li><a href="#">Cart</a></li>
+                        <li><a href="#">Product Details</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Recipes</a>
+                    <ul class="nav-concell">
+                        <li><a href="#">Recipe Archive</a></li>
+                        <li><a href="#">Recipe Details</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Shop</a>
+                </li>
+                <li>
+                    <a href="#">Contact Us</a>
+                </li>
+            </ul>
+            <div class="nav-icon">
+                <ul>
+                    <li><i class="flaticon-shopping-basket"></i></li>
+                    <li><i class="flaticon-magnifying-glass"></i></li>
+                </ul>
+                <div id="app-nav" onclick="openappnav()"> ≡</div>
+            </div>
+    </header>
+    <aside class="app-nav-aside">
+        <a><img src="img/logo.png" /></a>
+        <ul>
+            <li>
+                <a>Home Pages</a>
+                <ul class="drop-down-list">
+                    <li><a href="#">Home v1</a></li>
+                    <li><a href="#">Home v2</a></li>
+                    <li><a href="#">Home v3</a></li>
+                    <li><a href="#">Home v4</a></li>
+                    <li><a href="#">Home v5</a></li>
+                </ul>
+            </li>
+            <li>
+                <a>Blog</a>
+                <ul class="drop-down-list special-list">
+                    <li>
+                        <a href="#">Blog Archive</a>
+                        <ul class="drop-down-list Blog-list">
+                            <li><a href="#">Grid View</a></li>
+                            <li><a href="#">List View</a></li>
+                            <li><a href="#">Masonry</a></li>
+
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Blog Single</a>
+                        <ul class="drop-down-list Blog-list">
+                            <li><a href="#">Blog Single v1</a></li>
+                            <li><a href="#">Blog Single v2</a></li>
+                            <li><a href="#">Blog Single v3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a>Pages</a></li>
+            <li><a>Recipes</a></li>
+            <li><a>Shop</a></li>
+            <li><a>Contact Us</a></li>
+        </ul>
+    </aside>
+    <div class="aside-overlay" onclick="closeappnav()"></div>
+
+    <div class="img"></div>
+
+    <div class="banner-video">
+        <video autoplay muted loop id="myvideo">
+            <source src="assets/vids/video-banner.mp4" type="video/mp4">
+
+        </video>
+        <i class="slider-prev"><span class="iconfont icon-xiangzuojiantou"></span></i>
+        <div class="container">
+            <div class="bannerslider">
+                <div class="bannerslider-slick">
+                    <div class="slick-list">
+                        <div class="slick-track" style=" opacity:1;widows: 6720px; ">
+                            <div class="banner-inner">
+                                <h1 class="title textwhite" style="font-size: 62px;line-height: 80px; 
+color: #fff;margin: 0px auto 0 auto; text-align: center;
+                                " ;>在这里学习烹饪<span style="color: #85b72c;">艺术</span></h1>
+                                <h6 style="font-size: 18px;line-height: 80px; 
+                               color: #fff; text-align: center;">培根猪排里脊肉，香薰猪肉。</h6>
+                                <div class="contentusbox"> <a href="#" class="contentus">请联系我们</a></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <i class="slider-prev-right"><span class="iconfont icon-xiangzuojiantou"></span></i>
+
+    </div>
+    <div class="section">
+        <div class="container1">
+            <ul class="row">
+                <li class="rowchoice">
+
+                    <div class="neirong">
+                        <img src="./assets/img/niujiao.png" alt="">
+                        <h5>早餐</h5>
+                        <div>17个食谱</div>
+                    </div>
+
+                </li>
+                <li class="rowchoice">
+
+                    <div class="neirong">
+                        <img src="./assets/img/kuaican.png" alt="">
+                        <h5>快餐食品</h5>
+                        <div>87个食谱</div>
+                    </div>
+
+                </li>
+                <li class="rowchoice">
+
+                    <div class="neirong">
+                        <img src="./assets/img/huoguo.png" alt="">
+                        <h5>美食</h5>
+                        <div>36个食谱</div>
+                    </div>
+
+                </li>
+                <li class="rowchoice">
+
+                    <div class="neirong">
+                        <img src="./assets/img/sushi.png" alt="">
+                        <h5>素食主义者</h5>
+                        <div>42个食谱</div>
+                    </div>
+
+                </li>
+                <li class="rowchoice">
+
+                    <div class="neirong">
+                        <img src="./assets/img/ru.png" alt="">
+                        <h5>乳业</h5>
+                        <div>55个食谱</div>
+                    </div>
+
+                </li>
+                <li class="rowchoice">
+
+                    <div class="neirong">
+                        <img src="./assets/img/tianpin.png" alt="">
+                        <h5>甜品</h5>
+                        <div>45个食谱</div>
+                    </div>
+
+                </li>
+                <li class="rowchoice">
+
+                    <div class="neirong">
+                        <img src="./assets/img/pisa.png" alt="">
+                        <h5>披萨</h5>
+                        <div>13个食谱</div>
+                    </div>
+
+                </li>
+                <li class="rowchoice">
+
+                    <div class="neirong">
+                        <img src="./assets/img/pancake.png" alt="">
+                        <h5>薄煎饼</h5>
+                        <div>21个食谱</div>
+                    </div>
+
+                </li>
+
+            </ul>
+        </div>
+        <div class="container2">
+            <h2 class="h2-title">
+                我的博客
+            </h2>
+            <p class="subtitle">想看看我们正在开发哪些新食谱？阅读我们的每日博客文章，并保持最新状态</p>
+
+            <div class="manyimgs">
+                <div class="imgs1">
+                    <img src="./assets/img/blog/1.jpg" alt="">
+                    <div><span>早餐</span></div>
+                    <h5>蓬松煎饼上釉焦糖配水果</h5>
+                    <p>一些快速的示例文本可用于制作卡片标题，并构成卡片内容的大部分...</p>
+
+                </div>
+                <div class="imgs2">
+                    <img src="./assets/img/blog/2.jpg" alt="">
+                    <div><span>早餐</span></div>
+                    <h5>迷你煎饼配黄油，蜂蜜和蓝莓铜锣烧</h5>
+                    <p>一些快速的示例文本可用于制作卡片标题，并构成卡片内容的大部分...</p>
+
+                </div>
+                <div class="imgs3">
+                    <img src="./assets/img/blog/3.jpg" alt="">
+                    <div><span>早餐</span><span>教程</span></div>
+                    <h5>巧克力涂层布朗尼</h5>
+                    <p>一些快速的示例文本可用于制作卡片标题，并构成卡片内容的大部分...</p>
+
+                </div>
+                <div class="imgs4">
+                    <img src="./assets/img/blog/4.jpg" alt="">
+                    <div><span>午餐</span></div>
+                    <h5>香蒜酱意大利面，配上碎奶酪</h5>
+                    <p>一些快速的示例文本可用于制作卡片标题，并构成卡片内容的大部分...</p>
+
+                </div>
+                <div class="imgs5">
+                    <img src="./assets/img/blog/5.jpg" alt="">
+                    <div><span>美食</span></div>
+                    <h5>超级多汁的里脊肉和健康蔬菜</h5>
+                    <p>好饿好饿好饿好饿好饿好饿好饿好饿好饿好饿好饿好饿...</p>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="ganyan">
+
+        <h2 class="title66">
+            感言
+        </h2>
+        <span class="yinhao">尼古拉斯·阿勇</span>
+        <p>仿写页面的时候千万不要选择写美食网站
+            因为不仅会感到很累还会很饿！
+
+        </p>
+    </div>
+    <div class="shuguo">
+        <div class="cm">
+            <div class="tianp"><span>甜品</span></div>
+            <h3>果味世界</h3>
+            <p>品尝美味的果味餐！</p>
+            <div class="butt">查看食谱</div>
+            <img src="./assets/img/categories/png-1.png" alt="">
+        </div>
+        <div class="sc">
+            <div class="scp"><span>素食主义者</span></div>
+            <h3>绿色世界</h3>
+            <p>看看我们的素食食谱！</p>
+            <div class="butt">查看食谱</div>
+            <img src="./assets/img/categories/png-2.png" alt="">
+        </div>
+    </div>
+    <div class="shopproduct">
+        <h2>新产品</h2>
+        <p>根据要求，新产品在这里。使用我的最新系列和最流行的商品来吸引您的烹饪</p>
+        <div class="shopimgs">
+            <div class="pimgs">
+                <div class="adim"><img src="./assets/img/products/2.png" alt=""></div>
+                <h5>橡木切菜板</h5>
+                <p class="pc">20.00$</p>
+                <p class="00">精致的木板可用于各种配料，可以做肉类蔬菜...</p>
+
+            </div>
+
+            <div class="pimgs">
+                <div class="adim"><img src="./assets/img/products/3.png" alt=""></div>
+                <h5>平平无奇的勺子</h5>
+                <p class="pc">8.00$</p>
+                <p class="00">精致的木勺，可以搅拌任何东西...</p>
+
+            </div>
+            <div class="pimgs">
+                <div class="adim"> <img src="./assets/img/products/1.png" alt="">
+                </div>
+                <h5>定制品牌水壶</h5>
+                <p class="pc">32.00$-998$</p>
+                <p class="a0">这水壶烧开水的速度比你想象的要快十倍...</p>
+
+            </div>
+
+        </div>
+    </div>
+    <section class="section-submit">
+        <div class="section-submit-div">
+            <div>
+                <h2 class="title">Subscribe to My Newsletter</h2>
+                <p class="subtitle">
+                    Get access to my latest recipes by joining the weekly newsletter
+                </p>
+            </div>
+            <form action="footer_submit" method="get" accept-charset="utf-8">
+                <input class="input-focus" type="text" name="text" placeholder="Enter your email address" value="">
+                <button class="movie-button" type="submit" name="button">
+                    SUBMIT
+                    <i class="iconfont"> &#xe601;</i>
+                </button>
+
+            </form>
+        </div>
+    </section>
+
+    <div class="flex-box">
+        <div class="box-div"><a href="javascript:void()"><img class="box-img"
+                    src="./assets/headandfoot/img/ig/1.jpg" /></a></div>
+        <div class="box-div"><a href="javascript:void()"><img class="box-img"
+                    src="./assets/headandfoot/img/ig/2.jpg" /></a></div>
+        <div class="box-div"><a href="javascript:void()"><img class="box-img"
+                    src="./assets/headandfoot/img/ig/3.jpg" /></a></div>
+        <div class="box-div"><a href="javascript:void()"><img class="box-img"
+                    src="./assets/headandfoot/img/ig/4.jpg" /></a></div>
+        <div class="box-div"><a href="javascript:void()"><img class="box-img"
+                    src="./assets/headandfoot/img/ig/5.jpg" /></a></div>
+        <div class="box-div"><a href="javascript:void()"><img class="box-img"
+                    src="./assets/headandfoot/img/ig/6.jpg" /></a></div>
+    </div>
+
+    <footer class="footer-box">
+        <div class="footer-div">
+            <div class="icon-div">
+                <ul class="icon-ul">
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                </ul>
+            </div>
+            <div>
+                <ul class="icon-ul2">
+                    <li><a href="#">Breakfast</a></li>
+                    <li class="icon-ul2-li"><a href="#">Desserts</a></li>
+                    <li class="icon-ul2-li"><a href="#">Dinner</i></a></li>
+                    <li class="icon-ul2-li"><a href="#">Dairy</a></li>
+                </ul>
+            </div>
+            <div class="footer-statement">
+                <p class="footer-p">© Copyright 2020 -
+                    <a href="#">AndroThemes</a>
+                    All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
