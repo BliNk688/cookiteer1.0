@@ -81,13 +81,16 @@ html {
 }
 
 .container {
-    position: absolute;
-    top: 4.7rem;
-    left: 1rem;
+    margin: 3.4rem auto .8rem;
+    position: relative;
+    width: 5.1rem;
+
 }
 
 .row {
     width: 5.4rem;
+    position: relative;
+    margin: 0 auto;
 
 
 }
@@ -146,7 +149,7 @@ html {
     color: #85b72c;
     border-radius: 4px;
     font-weight: 600;
-    font-size: 12px;
+    font-size: .12rem;
     text-align: center;
     margin-top: .15rem;
 }

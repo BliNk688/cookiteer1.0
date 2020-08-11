@@ -8,7 +8,247 @@
     <link rel="stylesheet" href="./assets/css/index.css/style.css">
     <title>移动端首页</title>
     <style>
+        .blog h2 {
+            font-size: .26rem;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            line-height: .34rem;
+            margin: .2rem 0 .2rem;
+            font-weight: 700;
 
+        }
+
+        .blog p {
+            font-size: .16rem;
+            line-height: .28rem;
+            color: #515151;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            width: 5.4rem;
+
+        }
+
+        .aimg img {
+            width: 5.1rem;
+            height: auto;
+            border-radius: .08rem;
+            margin-top: .3rem;
+        }
+
+        .aimg div,
+        .cm .aa,
+        .sc .aa {
+            margin-top: -.1rem;
+            display: block;
+            width: fit-content;
+            background: #ffdbdb;
+            color: #ff6767;
+            padding: 0 .1rem;
+            line-height: .34rem;
+            border-radius: .08rem;
+            font-size: .13rem;
+            font-weight: 600;
+        }
+
+        .aimg h5 {
+            margin-top: .2rem;
+            color: #1D2228;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: .19rem;
+            font-weight: 500;
+
+        }
+
+        .aimg p {
+            font-size: .15rem;
+            line-height: .28rem;
+            margin: .15rem 0;
+        }
+
+        .ganyan img {
+            width: 100%;
+            position: absolute;
+            z-index: -1;
+            height: 3rem;
+
+        }
+
+        .ganyan h2 {
+            position: relative;
+            text-align: center;
+            font-size: .26rem;
+            line-height: .34rem;
+            padding: .4rem;
+            font-weight: 700;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+
+        }
+
+        .ganyan span {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 700;
+            font-size: .17rem;
+            color: #1D2228;
+            display: block;
+            padding: .2rem;
+            text-align: center;
+        }
+
+        .ganyan p {
+            font-size: .16rem;
+            color: #515151;
+            line-height: .28rem;
+            padding: .3rem;
+        }
+
+        .container2 {
+            width: 5.1rem;
+            margin: 0 auto;
+        }
+
+        .cm,
+        .sc {
+            background-color: #f7f4ee;
+            border-radius: .08rem;
+            position: relative;
+            width: 100%;
+            height: 2.9rem;
+            margin-top: 1rem;
+            overflow: hidden;
+
+
+        }
+
+        .aa,
+        .sc .aa {
+            position: absolute;
+            top: .4rem;
+            left: .25rem;
+        }
+
+        .cm h3,
+        .sc h3 {
+            position: absolute;
+            font-size: .26rem;
+            line-height: .32ren;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 700;
+            color: #1D2228;
+            left: .25rem;
+            top: .8rem;
+
+        }
+
+        .cm p,
+        .sc p {
+            font-size: .14rem;
+            line-height: .28rem;
+            position: absolute;
+            color: #515151;
+            top: 1.4rem;
+            left: .25rem;
+            width: 2.3rem;
+        }
+
+        .view {
+            width: fit-content;
+            font-size: .14rem;
+            position: absolute;
+            color: #fff;
+            background: #ff6767;
+            text-align: center;
+            padding: .1rem .15rem;
+            top: 2.3rem;
+            left: .25rem;
+            border-radius: .05rem;
+
+        }
+
+        .cm img,
+        .sc img {
+            position: absolute;
+            width: 3.2rem;
+            height: auto;
+            top: .8rem;
+            right: -1.2rem;
+        }
+
+        .sc {
+            margin-top: .2rem;
+        }
+
+        .sc .aa {
+            background: #dde6ce;
+            color: #85bd95;
+
+
+        }
+
+        .sc .view {
+            background: #85b72c;
+        }
+
+        .shop h2 {
+            font-size: .26rem;
+            line-height: .34rem;
+            margin-bottom: .1rem;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin-top: .5rem;
+
+        }
+
+        .shop p {
+            margin-top: .2rem;
+            margin-bottom: .2rem;
+            font-size: .16rem;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            line-height: .28rem;
+        }
+
+        .adimgbox {
+            background: #f7f4ee;
+            width: 5.1rem;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .ad .adimgbox {
+            margin: 0 auto;
+
+        }
+
+        .adimgbox img {
+            display: block;
+            width: 4rem;
+            height: 4rem;
+            margin: 0 auto;
+
+        }
+
+        .ad h5 {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+
+            color: #1D2228;
+            font-size: .18rem;
+            font-weight: 700;
+            line-height: .28rem;
+            margin-top: .15rem;
+            margin-bottom: .1rem;
+        }
+
+        .ad p {
+
+
+            font-size: .16rem;
+            color: #ff6767;
+
+            margin-bottom: .15rem;
+        }
+
+        .ad span {
+            display: block;
+            font-size: .14rem;
+            line-height: .28rem;
+            color: #515151;
+        }
     </style>
 </head>
 
@@ -76,6 +316,110 @@
                     <h5>Pancake</h5>
                     <span>21&nbsp;Recipes</span>
                 </div>
+            </div>
+        </div>
+        <div class="blog">
+            <h2>From&nbsp;My&nbsp;Blog</h2>
+            <p>Some quick example text to build on the card title and make up the bulk of the card's content...</p>
+            <div class="manyimgs">
+                <div class="aimg">
+                    <img src="./assets/img/blog/1.jpg" alt="">
+                    <div>Breakfast</div>
+                    <h5>Puffy Pancakes Glazed With Caramel Topped With Fruits</h5>
+                    <p>Some quick example text to build on the card title and make up the bulk of the card's content...
+                    </p>
+                </div>
+                <div class="aimg">
+                    <img src="./assets/img/blog/2.jpg" alt="">
+                    <div>Breakfast</div>
+                    <h5>Mini Pancakes Topped With Butter, Honey and Blueberry Sides</h5>
+                    <p>Some quick example text to build on the card title and make up the bulk of the card's content...
+                    </p>
+                </div>
+                <div class="aimg">
+                    <img src="./assets/img/blog/3.jpg" alt="">
+                    <div>Dessert</div>
+                    <h5>Chocolate Coated Browny </h5>
+                    <p>Some quick example text to build on the card title and make up the bulk of the card's content...
+                    </p>
+                </div>
+                <div class="aimg">
+                    <img src="./assets/img/blog/4.jpg" alt="">
+                    <div>Lunch</div>
+                    <h5>Pasta With Pesto Sauce, Topped With Grated Cheese </h5>
+                    <p>Some quick example text to build on the card title and make up the bulk of the card's content...
+                    </p>
+                </div>
+                <div class="aimg">
+                    <img src="./assets/img/blog/5.jpg" alt="">
+                    <div>Cuisine</div>
+                    <h5>Rare Tenderloine With Gravy and Veggies </h5>
+                    <p>Some quick example text to build on the card title and make up the bulk of the card's content...
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="ganyan">
+        <img src="./assets/img/bg/2.jpg" alt="">
+        <h2>Testimonials</h2>
+        <span>Johny White</span>
+        <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+        </p>
+    </div>
+    <div class="container2">
+        <div class="caipu">
+            <div class="cm">
+
+                <div class="aa">Desserts</div>
+                <h3>Fruity World</h3>
+                <p>Entice yourself with delicious fruity meals!</p>
+                <div class="view">VIEW RECIPES</div>
+                <img src="./assets/img/categories/png-1.png" alt="">
+
+            </div>
+            <div class="sc">
+
+                <div class="aa">Vegan</div>
+                <h3>Green World</h3>
+                <p>Who said vegain food isn't tasty? Check out our vegan recipes!</p>
+                <div class="view">VIEW RECIPES</div>
+                <img src="./assets/img/categories/png-2.png" alt="">
+
+            </div>
+        </div>
+        <div class="shop">
+            <h2>Nwely Released Products</h2>
+            <p>
+                As requested, the new products are here. Get your cookery swag on with my latest collection and most
+                trending items
+            </p>
+            <div class="ad">
+                <div class="adimgbox">
+                    <img src="./assets/img/products/2.png" alt="">
+                </div>
+                <h5>Oak Wood Cutting Board</h5>
+                <p>20.00$</p>
+                <span>Finely crafted wood board for all kinds of ingredients. Board does meat, vegetables...</span>
+            </div>
+            <div class="ad">
+                <div class="adimgbox">
+                    <img src="./assets/img/products/3.png" alt="">
+                </div>
+                <h5>State of The Art Spoon</h5>
+                <p>8.00$</p>
+                <span>Finely crafted wood spoon that can stir anything, from soup to vegemite...</span>
+            </div>
+            <div class="ad">
+                <div class="adimgbox">
+                    <img src="./assets/img/products/1.png" alt="">
+                </div>
+                <h5>Custom Branded Kettle</h5>
+                <p>20.00$-999.00$</p>
+                <span>This kettle boils water faster than you can count to ten, enjoy coffee....</span>
             </div>
         </div>
     </div>
