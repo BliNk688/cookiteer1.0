@@ -1,0 +1,124 @@
+html{
+	font-size: 100px;
+}
+body{
+	margin:0;
+}
+.bodys{
+	height: 6.016rem;
+	width: 100%;
+	display: flex;
+}
+.login{
+	width: 7.2rem;
+	height: 6.016rem;
+	margin:  0 auto;
+	position:relative;
+}
+.login-content{
+	width: 4.70rem;
+	height: 4.416rem;
+    margin: 0.6rem auto;
+	padding: 0.2rem;
+	background-size: cover;
+}
+.login-content-top{
+	height: 0.616rem;
+}
+h1{
+	line-height: 0.416rem;
+	font-weight: 700;
+	font-size:0.34rem ;
+	margin: 0 0 0.2rem;
+	text-align: center;
+	width: 100%;
+}
+.login-content-body{
+	height: 0.88rem;
+	margin: 0 0 0.2rem;
+	display: flex;
+	flex-direction: column;
+}
+.login-content-body label{
+	font-size: 0.14rem;
+	font-weight: 600;
+	color: #1D2228;
+	height: 0.28rem;
+	margin: 0 0 0.1rem;	
+}
+.form-control{
+	height: 0.5rem;
+	padding: 0.08rem 0.15rem;
+	border-radius:0.08rem;
+	border: 0.01rem solid #efefef;
+	color: #6e6e6e;
+	border-color: #e5e1dc;
+	background-color: #fff;
+}
+.login-content-body1{
+	height: .28rem;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 0.2rem;
+}
+.login-content-body2{
+	width: 1.2069rem;
+	height: 0.28rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.login-content-body1 a{
+	width: 1.2rem;
+	height: 0.28rem;
+	text-decoration: none;
+	font-size:0.14rem ;
+	color: #1D2228;
+	line-height: 0.28rem;
+	font-weight: 400;
+}
+.login-content-body1 a:hover{
+	color: #85B72C;
+}
+.custom-control{
+	line-height: 0.28rem;
+	font-size: 0.14rem;
+	font-weight: 400;
+}
+.form-group{
+	margin-bottom: 0.2rem;
+	height: 0.48rem;
+	width: 4.7rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.btn-custom{
+	background-color: #85B72C;
+	line-height: 24px;
+	border: 0;
+	color: #fff;
+	font-size: 0.14rem;
+	font-weight: 600;
+	padding: 0.12rem 0.3rem;
+	border-radius: 0.08rem;
+	box-shadow: 0.04rem 0.03rem 0.24rem rgba(133,183, 44, .5);
+	width: 4.7rem;	
+}
+.login-bottom{
+	height: 0.28rem;
+	font-size: 0.14rem;
+	margin-bottom: 0.2rem;
+	width: 4.7rem;
+	text-align: center;
+	line-height: 0.28rem;
+	color: #515151;
+}
+.login-bottom a{
+	text-decoration: none;
+	font-weight: 600;
+	color: #1D2228;
+}
+.login-bottom a:hover{
+	color: #85B72C;
+}
