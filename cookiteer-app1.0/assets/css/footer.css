@@ -1,0 +1,272 @@
+@media screen and (min-device-width:992px) {
+	body {
+		font-family: 'Open Sans', sans-serif;
+		margin: 0;
+		padding: 0;
+		font-size: 15px;
+		font-weight: 400;
+		color: #515151;
+	}
+
+	*,
+	:before,
+	:after {
+		box-sizing: border-box;
+	}
+
+	li {
+		list-style: none;
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+	.search_submit {
+		background-color: #f7f4ee;
+		position: relative;
+		padding: 80px 0;
+		background-image: url(../img/1.jpg);
+		background-size: cover;
+	}
+
+	@media screen and (min-device-width:1200px) {
+
+		.search_submit>div,
+		.footer-box {
+			max-width: 1140px;
+		}
+	}
+
+	@media screen and (min-device-width:992px) and (max-device-width:1199px) {
+
+		.search_submit>div,
+		.footer-box {
+			max-width: 960px;
+		}
+	}
+
+	.search_submit>div {
+		margin: 0 auto;
+		width: 100%;
+		padding: 0 15px;
+	}
+
+	.title {
+		font-size: 42px;
+		line-height: 48px;
+		margin-bottom: 20px;
+		margin: 0 0 20px;
+		font-family: 'Playfair Display', serif;
+		font-weight: 700;
+		text-align: center;
+		color: #1D2228;
+	}
+
+	.search_submit>div>p {
+		font-size: 16px;
+		line-height: 28px;
+		margin-bottom: 50px;
+		text-align: center;
+	}
+
+	.search_submit>div>form {
+		max-width: 500px;
+		margin: 0 auto;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.search_submit>div>form>input {
+		height: 50px;
+		padding: 8px 15px;
+		border-radius: 8px;
+		border: 1px solid #efefef;
+		width: 68%;
+		color: #6e6e6e;
+		background-color: #fff;
+		letter-spacing: 0.1px;
+		font-size: 15px;
+	}
+
+	.search_submit>div>form>button {
+		margin-left: 15px;
+		background-color: #85B72C;
+		border-radius: 8px;
+		font-weight: 600;
+		line-height: 24px;
+		position: relative;
+		padding: 12px 30px;
+		color: #fff;
+		font-size: 14px;
+		border: 0;
+		z-index: 1;
+		/* 当这个没有时,before的效果无法出现 */
+	}
+
+	.search_submit>div>form>button i {
+		transition: 0.5s;
+		margin-left: 10px;
+	}
+
+	.search_submit>div>form>button:hover i {
+		transform: translateX(5px);
+
+	}
+
+	.search_submit>div>form>button:hover {
+		color: #fff;
+		outline: none;
+	}
+
+	.search_submit>div>form>button::before {
+		content: '';
+		width: 100%;
+		height: 100%;
+		background-color: #729E25;
+		position: absolute;
+		top: 0;
+		left: 0;
+		border-radius: 8px;
+		z-index: -1;
+		transition: .3s;
+		transform: scale(0);
+	}
+
+	.search_submit>div>form>button:hover:before {
+		transform: scale(1);
+	}
+
+	.flex-box {
+		display: flex;
+		line-height: 0;
+	}
+
+	.box-div {
+		position: relative;
+		width: 16.6667%;
+	}
+
+
+
+	.box-div>a {
+		display: block;
+	}
+
+	.box-img {
+		width: 100%;
+		height: auto;
+	}
+
+	.box-div>a::before {
+		font-family: "Font Awesome 5 Brands";
+		content: "\f16d";
+		position: absolute;
+		top: 40%;
+		left: 45%;
+		z-index: -1;
+		line-height: 24px;
+		font-size: 14px;
+		transform: scale(0);
+		transition: 0.5s;
+		color: #fff;
+		width: 30px;
+		height: 30px;
+		border-radius: 50%;
+		background-color: rgba(0, 0, 0, .6);
+		justify-content: center;
+		align-items: center;
+		display: flex;
+		transform: translateY(50%)
+	}
+
+	.box-div>a:hover:before {
+		transform: scale(1);
+		z-index: 99;
+	}
+
+	.footer-box {
+		margin: 0;
+		padding: 4rem 0 0;
+		font-size: 100%;
+		text-align: center;
+	}
+
+	.footer-box {
+		width: 100%;
+		margin: 0 auto;
+		padding-top: 80px;
+	}
+
+	.icon-ul,
+	.icon-ul2 {
+		padding-bottom: 80px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 0;
+	}
+
+	.icon-ul>li>a {
+		display: flex;
+		margin-right: 15px;
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		font-size: 18px;
+		border: 0;
+		background-color: #f7f4ee;
+		color: #515151;
+		transform: translateX(0);
+		align-items: center;
+		justify-content: center;
+		transition: .5s;
+	}
+
+	.icon-ul>li a:hover {
+		color: #fff;
+		background-color: #85B72C;
+	}
+
+	.icon-ul2>li a {
+		color: #515151;
+		transition: .5s;
+	}
+
+	.icon-ul2>li:not(:first-child) {
+		position: relative;
+		margin-left: 28px;
+	}
+
+	.icon-ul2>li:not(:first-child)::before {
+		content: '';
+		width: 8px;
+		height: 8px;
+		border-radius: 50%;
+		position: absolute;
+		top: 7px;
+		left: -27px;
+		margin: 0 10px;
+		background-color: #85B72C;
+	}
+
+	.icon-ul2>li a:hover {
+		color: #85B72C;
+	}
+
+	.footer-statement {
+		border-top: 1px solid rgba(0, 0, 0, 0.1);
+		padding: 20px 0;
+	}
+
+	.footer-statement>p>a {
+		font-weight: 600;
+		color: #515151;
+		transition: .5s;
+	}
+
+	.footer-statement>p>a:hover {
+		color: #85B72C;
+	}
+}
