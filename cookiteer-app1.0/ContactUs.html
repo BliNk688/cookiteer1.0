@@ -11,8 +11,15 @@
     <link rel="stylesheet" href="assets/css/header-app.css" />
     <link rel="stylesheet" href="assets/fonts/flaticon/flaticon.css" />
     <link rel="stylesheet" href="assets/fonts/font-awesome/css/all.min.css">
-    <style>
+    <link rel="stylesheet" type="text/css" href="assets/css/footer-app.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/fonts/flaticon/flaticon.css" />
+    <link rel="stylesheet" href="assets/fonts/font-awesome/css/all.min.css">
 
+    <style>
+        .dropli>a {
+            font-size: .14rem !important;
+        }
     </style>
 </head>
 
@@ -24,7 +31,7 @@
             </a>
             <ul class="nav-text">
                 <li>
-                    <a href="#">Home Pages</a>
+                    <a href="./index.html">Home Pages</a>
                     <ul class="nav-concell">
                         <li><a href="#">Home v1</a></li>
                         <li><a href="#">Home v2</a></li>
@@ -34,7 +41,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="#">Blog</a>
+                    <a href="./index.html">Blog</a>
                     <ul class="nav-concell special-nav">
                         <li>
                             <a href="#">Blog Archive</a>
@@ -79,6 +86,15 @@
                 <li>
                     <a href="#">Contact Us</a>
                 </li>
+                <li>
+                    <a href="#">Login in</a>
+                </li>
+                <li>
+                    <a href="#">Login in</a>
+                </li>
+                <li>
+                    <a href="#">Login in</a>
+                </li>
             </ul>
             <div class="nav-icon">
                 <ul>
@@ -89,10 +105,10 @@
             </div>
     </header>
     <aside id="app-nav-aside">
-        <a><img src="img/logo.png" /></a>
+        <a><img src="./assets/img/logo.png" /></a>
         <ul>
             <li class="dropli">
-                <a>Home Pages</a>
+                <a href="./index.html">Home Pages</a>
                 <ul class="drop-down-list">
                     <li><a href="#">Home v1</a></li>
                     <li><a href="#">Home v2</a></li>
@@ -190,7 +206,49 @@
             document.getElementById("app-nav-aside").style.display = "none";
         }
     </script>
+    <section class="search_submit">
+        <div>
+            <h2 class="title">Subscribe to My Newsletter</h2>
+            <p>
+                Get access to my latest recipes by joining the weekly newsletter
+            </p>
+            <form action="footer_submit" method="get" accept-charset="utf-8">
+                <input type="text" name="text" placeholder="Enter your email address" value="">
+                <button type="submit" name="button">
+                    SUBMIT
+                    <i class="far fa-paper-plane"></i>
+                </button>
 
+            </form>
+        </div>
+    </section>
+
+    <div class="flex-box">
+        <div class="box-div"><a href="javascript:void()"><img class="box-img" src="assets/img/ig/1.jpg" /></a></div>
+        <div class="box-div"><a href="javascript:void()"><img class="box-img" src="assets/img/ig/2.jpg" /></a></div>
+        <div class="box-div"><a href="javascript:void()"><img class="box-img" src="assets/img/ig/3.jpg" /></a></div>
+        <div class="box-div"><a href="javascript:void()"><img class="box-img" src="assets/img/ig/4.jpg" /></a></div>
+        <div class="box-div"><a href="javascript:void()"><img class="box-img" src="assets/img/ig/5.jpg" /></a></div>
+        <div class="box-div"><a href="javascript:void()"><img class="box-img" src="assets/img/ig/6.jpg" /></a></div>
+    </div>
+
+    <footer class="footer-box">
+        <ul class="icon-ul">
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+        </ul>
+        <ul class="icon-ul2">
+            <li><a href="#">Breakfast</a></li>
+            <li><a href="#">Desserts</a></li>
+            <li><a href="#">Dinner</i></a></li>
+            <li><a href="#">Dairy</a></li>
+        </ul>
+        <div class="footer-statement">
+            <p>© Copyright 2020 -<a href="#">AndroThemes</a>All Rights Reserved.</p>
+        </div>
+    </footer>
 </body>
 
 </html>
