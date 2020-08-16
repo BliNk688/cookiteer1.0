@@ -1,0 +1,139 @@
+body {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #85B72C;
+}
+
+#subheader {
+	background-image: url(../img/subheader.jpg);
+	padding: 280px 0 140px;
+	background-size: cover;
+	position: relative;
+	z-index: 1;
+}
+
+#subheader::before {
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, .6);
+	z-index: -1;
+}
+
+.container {
+	width: 100%;
+	padding: 0 15px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	text-align: center;
+	color: #fff;
+}
+
+#subheader>div>h1 {
+	font-size: 50px;
+	line-height: 58px;
+	font-family: sans-serif;
+	text-align: center;
+	margin: 0 0 20px;
+}
+
+#subheader>div>a {
+	font-size: 14px;
+	font-weight: 700;
+	color: white;
+}
+
+#subheader>div>a:hover {
+	color: #85B72C;
+}
+
+.product {
+	padding: 60px 0 30px;
+}
+
+@media screen and (min-device-width:768px) and (max-device-width:991px) {
+	.container {
+		max-width: 720px;
+		background-color: yellow;
+	}
+}
+
+.wrap {
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+.wrap>div {
+	position: relative;
+	width: 100%;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.cut_search {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 30px;
+
+}
+
+.cut_search>div {
+	width: 300px;
+	text-align: left;
+}
+
+.wrap>div>div>div>i {
+	width: 50px;
+	height: 50px;
+	border-radius: 8px;
+	transition: .3s;
+	font-size: 14px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 10px;
+	font-weight: 900;
+	font-family: "Font Awesome 5 Free";
+	color: #515151;
+	background-color: #f7f4ee;
+}
+
+.cut_icon1::before {
+	content: "\f00a";
+}
+
+.cut_icon2::before {
+	content: "\f00b";
+}
+
+.fas:hover {
+	color: #fff;
+	background-color: #85B72C;
+}
+.cut_search>select{
+	width: 300px;
+	font-size: 14px;
+	    height: 50px;
+	    padding: 8px 15px;
+	    border-radius: 8px;
+	    border: 1px solid #efefef;
+		color: #6e6e6e;
+		    border-color: #e5e1dc;
+		    background-color: #fff;
+		    letter-spacing: 0.1px;
+}
