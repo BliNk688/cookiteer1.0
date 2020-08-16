@@ -40,7 +40,11 @@
 	#app-nav {
 		font-size: 36px;
 		font-weight: 100;
+<<<<<<< HEAD
 
+=======
+		padding: 0 15px;
+>>>>>>> f51706594b6c7509a6cd127f6513b734f9c1eac9
 		outline: none;
 		border-color: transparent;
 		box-shadow: none;
