@@ -43,7 +43,7 @@ p {
 
 #subheader {
 	background-image: url(../img/subheader.jpg);
-	padding: 280px 0 140px;
+
 	background-size: cover;
 	position: relative;
 	z-index: 1;
@@ -93,6 +93,9 @@ p {
 }
 
 @media screen and (min-device-width:768px) and (max-device-width:991px) {
+	#subheader {
+		padding: 280px 0 140px;
+	}
 
 	.container,
 	.food {
@@ -111,13 +114,50 @@ p {
 		max-width: 100%;
 	}
 }
-@media screen and (max-device-width:767px)
-{
+
+@media screen and (min-device-width:576px) and (max-device-width:767px) {
 	.product_block>div {
 		flex: 0 0 100%;
 		max-width: 100%;
 		box-sizing: border-box;
 	}
+
+	#subheader {
+		padding: 150px 0 70px;
+	}
+	.container,
+		.food{
+		max-width: 540px;
+	}
+	#subheader>div>h1{
+		font-size: 32px;
+		    line-height: 40px;
+	}
+}
+@media screen and (max-device-width:576px){
+	
+	#subheader {
+		padding: 150px 0 70px;
+	}
+	.product_block>div {
+		flex: 0 0 100%;
+		max-width: 100%;
+		box-sizing: border-box;
+	}
+	#subheader>div>h1{
+		font-size: 32px;
+		    line-height: 40px;
+	}
+}
+@media screen and (max-device-width:575px){
+	.cut_search>div{
+		display: none;
+		position: absolute;
+	}
+	.cut_search>select{
+		width: 100%;
+	}
+
 }
 .wrap,
 .product_block {
@@ -147,7 +187,6 @@ p {
 }
 
 .cut_search>div {
-	width: 300px;
 	text-align: left;
 }
 
@@ -181,7 +220,6 @@ p {
 }
 
 .cut_search>select {
-	width: 300px;
 	font-size: 14px;
 	height: 50px;
 	padding: 8px 15px;
@@ -348,7 +386,6 @@ p {
 
 .food_big_pic>a {
 	display: block;
-	height: 421px;
 }
 
 .food_big_pic>a>img {
@@ -370,6 +407,7 @@ p {
 	justify-content: center;
 	align-items: center;
 	background-color: rgba(0, 0, 0, .6);
+	text-align: center;
 }
 
 .food_big_pic>div>div>h6 {
@@ -386,7 +424,7 @@ p {
 	display: inline-block;
 	padding: 5px;
 	position: relative;
-	margin-left: 112px;
+
 }
 
 .food_big_pic>div>div>div span {
